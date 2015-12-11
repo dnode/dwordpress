@@ -1,7 +1,7 @@
 {
   "name": "dwordpress",
   "description": "Get posts and users from a wordpress instance with WP REST API plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "http://github.com/dnode/dwordpress",
   "license": "MIT",
   "readmeFilename": "README.md",
