@@ -6,7 +6,7 @@ const request = require('request');
 module.exports = (url) => {
   return (query, callback) => {
     let posts = [];
-    let users = {};
+    const users = {};
     async.parallel(
       [
         (next) => {

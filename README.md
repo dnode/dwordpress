@@ -5,8 +5,8 @@
 ```javascript
 const dwordpress = require('dwordpress')('url');
 dwordpress('query', (posts, users) => {
-  for (let post of posts) {
-    let user = users[post.author];
+  for (const post of posts) {
+    const user = users[post.author];
   }
 });
 ```
